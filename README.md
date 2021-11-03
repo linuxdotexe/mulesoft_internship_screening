@@ -1,6 +1,7 @@
 # MuleSoft Internship Screening Test Code
 
 The purpose of this document is to explain what I had done in this program.
+Run this program on [ReplIt](https://replit.com/@linuxdotexe/mulesoft#main.py).
 
 ## Problem Statement
 
@@ -148,7 +149,7 @@ Many of the query commands are commented out. This is because I have observed th
 
 ## Recreation of the code
 
-You might want to install the `tabulate` library before running the program. You can do that with this command
+You might want to install the `tabulate` library before running the program. Tabulate is used to output the program in a much prettier and readable format. You can install it with this command
 
 ```bash
 pip3 install tabulate
