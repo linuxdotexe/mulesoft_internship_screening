@@ -113,25 +113,25 @@ The above query selects all the data available in the `movies` table. The below 
 c.execute("SELECT * FROM movies WHERE actor = 'Jake Gyllenhaal'")
 ```
 
-1. Movies directed by Quentin Tarantino in chronological order
+2. Movies directed by Quentin Tarantino in chronological order
 
 ```python
 c.execute("SELECT * FROM movies WHERE director = 'Quentin Tarantino' ORDER BY year")
 ```
 
-1. Movies with Jake Gyllenhaal and Rene Russo
+3. Movies with Jake Gyllenhaal and Rene Russo
 
 ```python
 c.execute("SELECT * FROM movies WHERE actor = 'Jake Gyllenhaal' AND actress = 'Rene Russo'")
 ```
 
-1. Movies released before 2000
+4. Movies released before 2000
 
 ```python
 c.execute("SELECT * FROM movies WHERE year < 2000")
 ```
 
-1. Movies directed by Quentin Tarantino starring Samuel L. Jackson
+5. Movies directed by Quentin Tarantino starring Samuel L. Jackson
 
 ```python
 c.execute("SELECT * FROM movies WHERE director = 'Quentin Tarantino' AND actor = 'Samuel L. Jackson'")
