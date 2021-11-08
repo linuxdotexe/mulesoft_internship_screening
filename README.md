@@ -43,7 +43,7 @@ c = conn.cursor()
 Then, I wrote an execute function to create a table with all the required columns
 
 ```python
-c.execute("""CREATE TABLE movies (
+c.execute("""CREATE TABLE IF NOT EXISTS movies (
     movie text,
     actor text,
     actress text,
